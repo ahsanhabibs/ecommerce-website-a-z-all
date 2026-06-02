@@ -51,3 +51,65 @@ a{
     font-size: 1rem;
     padding: 0px 10px  ;
 }
+.searchBox input::placeholder{
+    color:#1d1d1d;
+    font-weight:400;
+    letter-spacing:2px;
+    font-size: 0.8rem;
+    font-family:poppins;
+}
+.section1{
+    position: absolute;
+    left:15%;
+    top:50% ;
+    transform: translate(-15%,-50%);
+}
+.section1 img{
+    height: 300px;
+
+}
+.section1button{
+    position:absolute;
+    top:50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+.section1button h1,h2{
+    font-family:Roboto;
+    font-weight: bold;
+    margin:0px;
+    line-height:60px;
+    font-size:4rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 3px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+
+}
+span{
+    color: #7a72ff;
+}
+.section1button h1{
+    letter-spacing: 28px;
+}
+.btn{
+    width: 150px;
+    height:40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+    margin-top:20px;
+    color: #fff;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+
+
+}
