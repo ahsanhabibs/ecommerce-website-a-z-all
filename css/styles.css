@@ -92,6 +92,7 @@ span{
 .section1button h1{
     letter-spacing: 28px;
 }
+/* btn part start */
 .btn{
     width: 150px;
     height:40px;
@@ -110,6 +111,44 @@ span{
     outline: none;
     cursor: pointer;
     border: transparent !important;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #6e64ff;
+    transition: all ease 0.5s;
 
-
+}
+.icon-area{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translatey(-50%);
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding:5px 0px;
+    z-index:1;
+}
+.icon-area a{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px 15px;
+    
+}
+.icon-area a i{
+    color: rgba(39,39,39,0.80);
+}
+.icon-area a:hover .fa-facebook-f{
+    color: #1877F2;
+}
+.icon-area a:hover .fa-twitter{
+    color: #11cc4c;
+}
+.icon-area a:hover .fa-instagram{
+    color: #c81581;
+}
+.icon-area a:hover .fa-youtube{
+    color: #ff0000;
 }
