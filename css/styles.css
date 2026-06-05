@@ -241,3 +241,35 @@ span{
     color: #fff;
     transition: all ease 0.3s;
 }
+/* about section */
+.about{
+  display: flex;  
+  width:85%;
+  margin:50px auto;
+  justify-content:space-around;
+  align-items:center;
+  padding: 30px;
+
+}
+.aboutbox{
+    width:40%;
+    font-family:sans-serif;
+}
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutbox h4{
+    color: #333333;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aboutbox p{
+    font-size: 1rem;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+}
+/* about section End */
